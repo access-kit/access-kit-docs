@@ -17,6 +17,7 @@ export default function Index() {
                 Access Kit provides easy-to-integrate, modular solutions for media playback accessibility.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                Add mobile 
                 Ranging from complete visitor guides to mobile captioning for complex, multi-channel audio visual installations, Access Kit provides the tools needed to create a frictionless and immersive synchronized experience for viewers across a full spectrum of accessibility, captioning and language needs. 
               </p>
               <div className="mt-12">
@@ -170,6 +171,9 @@ export default function Index() {
               </p>
               <div className="block pb-6">
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Audio Description
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Multilingual Captions
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
@@ -177,6 +181,15 @@ export default function Index() {
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Web CMS
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Multichannel Syncrhonization
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Custom Scripting
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Embeddable Player
                 </span>
               </div>
               <a
@@ -193,33 +206,33 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
                 <img
                   alt="..."
-                  src="/img/component-btn.png"
-                  className="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-29-px z-3"
+                  src="/img/admin_home.png"
+                  className="w-full align-middle rounded absolute shadow-lg max-w-340-px left-45-px -top-100-px z-0"
                 />
                 <img
                   alt="..."
-                  src="/img/component-profile-card.png"
+                  src="/img/admin_exhibition.png"
                   className="w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-160-px"
                 />
                 <img
                   alt="..."
-                  src="/img/component-info-card.png"
-                  className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-40-px -top-225-px z-2"
+                  src="/img/admin_work.png"
+                  className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-10-px -top-225-px z-2"
                 />
                 <img
                   alt="..."
-                  src="/img/component-info-2.png"
+                  src="/img/exhibition_nav.jpg"
                   className="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
                 />
                 <img
                   alt="..."
-                  src="/img/component-menu.png"
-                  className="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-210-px"
+                  src="/img/home_nav.jpg"
+                  className="w-full align-middle rounded absolute shadow-lg max-w-200-px -left-20-px top-210-px"
                 />
                 <img
                   alt="..."
-                  src="/img/component-btn-pink.png"
-                  className="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px"
+                  src="/img/landscape_caption.png"
+                  className="w-full align-middle rounded absolute shadow-xl max-w-320-px left-95-px top-5-px"
                 />
               </div>
             </div>
