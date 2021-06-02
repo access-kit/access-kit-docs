@@ -27,10 +27,10 @@ export default function Footer() {
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
               <h4 className="text-2xl font-semibold">Feel free to reach out!</h4>
-              <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
-                We'd love to chat about your access and AV challenges.
+              <h5 className="text-lg mt-0 mb-4 text-blueGray-600">
+                We'd love to learn about your accessibility and AV projects!
               </h5>
-              <div className="font-semibold text-sm">
+              <div className="font-semibold text-sm mb-4">
                 <p>260 West Broadway</p>
                 <p>Suite 2</p>
                 <p>New York, NY</p>
@@ -144,7 +144,7 @@ export default function Footer() {
                 and  
                 {' '}
                 <a
-                  href="https://computerlab.io"
+                  href="https://samwolk.info/"
                   className="text-blueGray-500 hover:text-blueGray-800"
                 >
                   Sam Wolk
