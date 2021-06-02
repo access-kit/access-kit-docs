@@ -18,22 +18,21 @@ export default function Index() {
                 Access Kit provides easy-to-integrate, modular solutions for media playback accessibility.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Add mobile 
                 Ranging from complete visitor guides to mobile captioning for complex, multi-channel audio visual installations, Access Kit provides the tools needed to create a frictionless and immersive synchronized experience for viewers across a full spectrum of accessibility, captioning and language needs. 
               </p>
               <div className="mt-12">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
+                  href="mailto:info@accesskit.media"
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
-                  Pricing
+                  Contact Us
                 </a>
-                <a
-                  href="mailto:info@accesskit.media"
-                  className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-                  target="_blank"
-                >Get Started</a>
+                <Link href="/community">
+                  <button
+                    className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
+                  >Get Started</button>
+                </Link>
               </div>
             </div>
           </div>
