@@ -49,15 +49,6 @@ export default class MyApp extends App {
 `);
     document.insertBefore(comment, document.documentElement);
   }
-  static async getInitialProps({ Component, router, ctx }) {
-    let pageProps = {};
-
-    if (Component.getInitialProps) {
-      pageProps = await Component.getInitialProps(ctx);
-    }
-
-    return { pageProps };
-  }
   render() {
     const { Component, pageProps } = this.props;
 
@@ -71,7 +62,7 @@ export default class MyApp extends App {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <title>Access Kit</title>
-          <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+          {/* <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script> */}
         </Head>
         <Layout>
           <Component {...pageProps} />
