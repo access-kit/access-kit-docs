@@ -6,7 +6,7 @@ From complete visitor guides to mobile captioning for complex, multi-channel aud
 
 Please [sign up for the waiting list or contact us](mailto:info@accesskit.media) if you'd like to be a part of our beta.
 
-# Best-in-Class Tools
+## Best-in-Class Tools
 
 accesskit includes a suite of tools for your team’s entire production pipeline, from deploying complex, multi-channel, synchronized audiovisual presentations to making visitor experiences accessible to all. Save time and increase production agility while reaching a wider audience.
 
