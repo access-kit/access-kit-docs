@@ -15,10 +15,10 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-600">
-                Access Kit provides easy-to-integrate, modular solutions for media playback accessibility.
+              Easy-to-integrate solutions for accessible media experiences.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Ranging from complete visitor guides to mobile captioning for complex, multi-channel audio visual installations, Access Kit provides the tools needed to create a frictionless and immersive synchronized experience for viewers across a full spectrum of accessibility, captioning and language needs. 
+                From complete visitor guides to mobile captioning for complex, multi-channel audio visual installations, accesskit provides the tools to create a frictionless and immersive synchronized experience for a full spectrum of accessibility, captioning and language needs.
               </p>
               <div className="mt-12">
                 <a
@@ -39,9 +39,9 @@ export default function Index() {
         </div>
         <img
           className="absolute z-0 top-0 sm:top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
-          style={{ opacity: 0.6, zIndex: -100 }}
-          src="/img/ak.svg"
-          alt="Access Kit Letterpress"
+          style={{ zIndex: -100 }}
+          src="/img/whitney.png"
+          alt="Accesskit Letterpress"
         />
       </section>
 
@@ -71,7 +71,7 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                 <img
                   alt="..."
-                  src="/img/whitney.png"
+                  src="/img/shed.jpg"
                   className="w-full align-middle rounded-t-lg"
                 />
                 <blockquote className="relative p-8 mb-4">
@@ -87,10 +87,10 @@ export default function Index() {
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-white">
-                    Access Kit at the Shed
+                    accesskit at the Shed
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Read a case study of how Access Kit was used to add mobile captioning to a 16 millimeter film at the Shed in June 2021.
+                    Learn how accesskit was used to add mobile captioning to a 16 millimeter film at the Shed in June 2021.
                   </p>
                 </blockquote>
               </div>
@@ -108,7 +108,7 @@ export default function Index() {
                         Easy Integrations
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        We provide integration scripts for a number of common media players, including <strong>BrightSign</strong>, <strong>Raspberry Pi</strong>, and <strong>Mac Mini</strong>: no need to replace your existing infrastructure!
+                        Integration scripts for a number of common media players, including <strong>BrightSign</strong>, <strong>Raspberry Pi</strong>, and <strong>Mac mini</strong>: no need to replace your existing infrastructure!
                       </p>
                     </div>
                   </div>
@@ -121,7 +121,7 @@ export default function Index() {
                         Multilingual Captions and Audio
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Our CMS makes it easy to manage multiple caption and audio tracks.
+                        An easily manageable CMS for multiple caption and audio tracks.
                       </p>
                     </div>
                   </div>
@@ -134,7 +134,7 @@ export default function Index() {
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">No-Hassle Connection</h6>
                       <p className="mb-4 text-blueGray-500">
-                        Since Access Kit works entirely in the browser, all a visitor needs to connect your custom guide is a mobile phone!
+                        Works entirely in the browser, so visitors need only a mobile phone to connect to your custom guide.
                       </p>
                     </div>
                   </div>
@@ -144,10 +144,10 @@ export default function Index() {
                         <i className="fas fa-file-alt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Partners
+                        Proven Case Studies
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Take a look at Access Kit in action at some of New York's premiere cultural institutions, like <a href="https://captioner.theshed.org/"><strong>the Shed</strong></a> and <a href="https://captioner.whitney.org"><strong>the Whitney Museum of American Art</strong></a>.
+                        See accesskit in action at some of New York's premiere cultural institutions, like <a href="https://captioner.theshed.org/"><strong>the Shed</strong></a> and <a href="https://captioner.whitney.org"><strong>the Whitney Museum of American Art</strong></a>.
 
                       </p>
                     </div>
@@ -165,20 +165,17 @@ export default function Index() {
                 <i className="fas fa-toolbox text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                The Best Tools
+                Best-in-Class Tools
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                Access Kit includes a variety of tools to help your team through the entire production pipeline, from deploying a complex multi-channel, synchronized audiovisual presentation to making your visitor experience accessible to everyone.  Save time and increase your agility in the production phase while also reaching a larger audience!
+                accesskit includes a suite of tools for your team’s entire production pipeline, from deploying complex, multi-channel, synchronized audiovisual presentations to making visitor experiences accessible to all. Save time and increase production agility while reaching a wider audience.
               </p>
               <div className="block pb-6">
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Audio Description
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Multilingual Captions
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Multilingual Audio
+                  Multilingual Audio and Captions
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Web CMS
@@ -261,9 +258,9 @@ export default function Index() {
                   Theming, Branding and Beyond
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  Access Kit custom themes make it easy to match the display of captions and work metadata
+                  accesskit custom themes make it easy to match the display of captions and work metadata
                   to your organization's style guide with just a few clicks. You can upload custom fonts and icons,
-                  and if required, re-style the whole site with an external stylesheet for seamless brand intergration.
+                  and if required, re-style the whole portal with an external stylesheet for seamless brand intergration.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
@@ -321,14 +318,14 @@ export default function Index() {
               <div className="flex flex-wrap">
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Sync a BrightSign
+                    Cross-platform synchronization
                   </h5>
                   <Link href="/community">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/brightsign-4.jpg"
+                        src="/img/brightsign-logo.png"
                       />
                     </div>
                   </Link>
@@ -336,14 +333,14 @@ export default function Index() {
 
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Sync a Rasberry Pi
+                    Easy integration
                   </h5>
                   <Link href="/community">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/pi.png"
+                        src="/img/rpi-logo.png"
                       />
                     </div>
                   </Link>
@@ -351,14 +348,14 @@ export default function Index() {
 
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Sync a Projector
+                    Use your existing hardware
                   </h5>
                   <Link href="/community">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/eiki.jpg"
+                        src="/img/mac-mini-logo.png"
                       />
                     </div>
                   </Link>
