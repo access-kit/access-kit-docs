@@ -65,14 +65,6 @@ export default function Footer() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="/pricing"
                       >
-                        Case Studies
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/pricing"
-                      >
                         GitHub
                       </a>
                     </li>
@@ -83,14 +75,6 @@ export default function Footer() {
                     Site Map
                   </span>
                   <ul className="list-unstyled">
-                    <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/auth/login"
-                      >
-                        Sign Up / Login
-                      </a>
-                    </li>
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
@@ -110,7 +94,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/other-services"
+                        href="https://computerlab.io"
                       >
                         Other Services
                       </a>
@@ -118,7 +102,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/"
+                        href="/about"
                       >
                         About Us
                       </a>

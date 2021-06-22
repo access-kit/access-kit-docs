@@ -90,7 +90,7 @@ export default function Index() {
                     accesskit at the Shed
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Learn how accesskit was used to add mobile captioning to a 16 millimeter film at the Shed in June 2021.
+                    accesskit was used to add mobile captioning to a 16 millimeter film at the Shed in June 2021.
                   </p>
                 </blockquote>
               </div>
@@ -144,11 +144,10 @@ export default function Index() {
                         <i className="fas fa-file-alt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Proven Case Studies
+                        Trusted
                       </h6>
                       <p className="mb-4 text-blueGray-500">
                         See accesskit in action at some of New York's premiere cultural institutions, like <a href="https://captioner.theshed.org/"><strong>the Shed</strong></a> and <a href="https://captioner.whitney.org"><strong>the Whitney Museum of American Art</strong></a>.
-
                       </p>
                     </div>
                   </div>
