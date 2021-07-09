@@ -7,7 +7,35 @@ module.exports = {
     colors: {
       ...colors,
     },
+    fontFamily: {
+      sans: [ 'D-DIN Regular', 'sans-serif'],
+      lede: [ 'D-DIN Exp', 'sans-serif'],
+    },
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+      '50%': '50%',
+      '100%': '100%',
+      '16': '4rem',
+    },
     extend: {
+      backgroundImage: theme => ({
+        'hero-pattern': "url('/img/whitney-2.png')",
+      }),
+      backgroundPosition: {
+        bottom: 'bottom',
+        center: 'center',
+        left: 'left',
+       'left-bottom': 'left bottom',
+       'left-top': 'left top',
+        right: 'right',
+        'right-bottom': 'right bottom',
+        'right-top': 'right top',
+        top: 'top',
+        'right-2': 'center right -15rem',
+        'right-1': 'center right -7.5rem'
+      },
       minHeight: {
         "screen-75": "75vh",
       },

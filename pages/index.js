@@ -10,42 +10,37 @@ export default function Index() {
   return (
     <>
       <IndexNavbar fixed />
-      <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
-        <div className="container mx-auto items-center flex flex-wrap">
-          <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
-            <div className="pt-32 sm:pt-0">
-              <h2 className="font-semibold text-4xl text-blueGray-600">
-              Easy-to-integrate solutions for accessible media experiences.
+      <section className="header relative pt-16 lg:bg-hero-pattern bg-right-2 xl:bg-right-1 2xl:bg-right bg-no-repeat bg-contain">
+        <div className="container mx-auto py-32 md:pt-60 md:pb-64 xl:py-72 items-end flex flex-wrap">
+          <div className="w-full lg:w-6/12 px-6 py-6 bg-white bg-opacity-95 rounded-sm backdrop-filter backdrop-grayscale">
+            <div className="">
+              <div className="lg:hidden mb-4 -mt-8 bg-hero-pattern bg-center bg-100% w-full h-64" src="/img/whitney-2.png" alt="Mobile captioning for Madeline Hollander video show." />
+              <h2 className="font-bold text-3xl xl:text-4xl text-blueGray-700">
+                Easy-to-integrate solutions for accessible media experiences.
               </h2>
-              <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                From complete visitor guides to mobile captioning for complex, multi-channel audio visual installations, accesskit provides the tools to create a frictionless and immersive synchronized experience for a full spectrum of accessibility, captioning and language needs.
+              <p className="mt-4 text-lg lg:text-xl leading-relaxed text-blueGray-700">
+                From <b>media players</b> to <b>mobile captioning</b> for complex, multi-channel audio visual installations, AccessKit provides the tools you need to create a frictionless and immersive <b>synchronized experience</b> across a spectrum of accessibility and language needs.
               </p>
               <div className="mt-12">
                 <a
-                  href="mailto:info@accesskit.media"
+                  href="mailto:info@AccessKit.media"
                   target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  className="get-started text-white font-lede font-bold px-6 py-4 rounded-sm outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Contact Us
                 </a>
                 <Link href="/community">
                   <button
-                    className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
+                    className="github-star font-lede ml-1 text-white font-bold px-6 py-4 rounded-sm outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 text-sm shadow hover:shadow-lg"
                   >Get Started</button>
                 </Link>
               </div>
             </div>
           </div>
         </div>
-        <img
-          className="absolute z-0 top-0 sm:top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
-          style={{ zIndex: -100 }}
-          src="/img/whitney.png"
-          alt="Accesskit Letterpress"
-        />
       </section>
 
-      <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
+      <section className="pb-40 relative bg-blueGray-100">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
@@ -67,12 +62,12 @@ export default function Index() {
         </div>
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
-            <div className="w-12/12 md:w-6/12 lg:w-6/12 px-6 md:px-4 mr-auto ml-auto -mt-32">
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
+            <div className="w-12/12 md:w-6/12 lg:w-6/12 px-6 md:px-4 mr-auto ml-auto mt-20">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-sm bg-blueGray-700">
                 <img
                   alt="..."
                   src="/img/shed.jpg"
-                  className="w-full align-middle rounded-t-lg"
+                  className="w-full align-middle rounded-sm"
                 />
                 <blockquote className="relative p-8 mb-4">
                   <svg
@@ -87,10 +82,10 @@ export default function Index() {
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-white">
-                    accesskit at the Shed
+                    AccessKit at the Shed
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Learn how accesskit was used to add mobile captioning to a 16 millimeter film at the Shed in June 2021.
+                    Learn how AccessKit was used to add mobile captioning to a 16 millimeter film at the Shed in June 2021.
                   </p>
                 </blockquote>
               </div>
@@ -101,26 +96,26 @@ export default function Index() {
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col mt-4">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      <div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-sitemap"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">
+                      <h6 className="text-xl mb-1 font-lede font-bold">
                         Easy Integrations
                       </h6>
-                      <p className="mb-4 text-blueGray-500">
+                      <p className="mb-4 text-blueGray-700">
                         Integration scripts for a number of common media players, including <strong>BrightSign</strong>, <strong>Raspberry Pi</strong>, and <strong>Mac mini</strong>: no need to replace your existing infrastructure!
                       </p>
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      <div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-language"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">
+                      <h6 className="text-xl mb-1 font-bold font-lede">
                         Multilingual Captions and Audio
                       </h6>
-                      <p className="mb-4 text-blueGray-500">
+                      <p className="mb-4 text-blueGray-700">
                         An easily manageable CMS for multiple caption and audio tracks.
                       </p>
                     </div>
@@ -129,25 +124,25 @@ export default function Index() {
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col min-w-0 mt-4">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      <div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-bolt"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">No-Hassle Connection</h6>
-                      <p className="mb-4 text-blueGray-500">
+                      <h6 className="text-xl mb-1 font-bold font-lede">No-Hassle Connection</h6>
+                      <p className="mb-4 text-blueGray-700">
                         Works entirely in the browser, so visitors need only a mobile phone to connect to your custom guide.
                       </p>
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      <div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-file-alt"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">
+                      <h6 className="text-xl mb-1 font-bold font-lede">
                         Proven Case Studies
                       </h6>
-                      <p className="mb-4 text-blueGray-500">
-                        See accesskit in action at some of New York's premiere cultural institutions, like <a href="https://captioner.theshed.org/"><strong>the Shed</strong></a> and <a href="https://captioner.whitney.org"><strong>the Whitney Museum of American Art</strong></a>.
+                      <p className="mb-4 text-blueGray-700">
+                        See AccessKit in action at some of New York's premiere cultural institutions, like <a href="https://captioner.theshed.org/"><strong>the Shed</strong></a> and <a href="https://captioner.whitney.org"><strong>the Whitney Museum of American Art</strong></a>.
 
                       </p>
                     </div>
@@ -161,39 +156,39 @@ export default function Index() {
         <div className="container mx-auto overflow-hidden pb-20">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-              <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+              <div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                 <i className="fas fa-toolbox text-xl"></i>
               </div>
-              <h3 className="text-3xl mb-2 font-semibold leading-normal">
+              <h3 className="text-3xl mb-2 font-bold font-lede leading-normal">
                 Best-in-Class Tools
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                accesskit includes a suite of tools for your team’s entire production pipeline, from deploying complex, multi-channel, synchronized audiovisual presentations to making visitor experiences accessible to all. Save time and increase production agility while reaching a wider audience.
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-700">
+                AccessKit includes a suite of tools for your team’s entire production pipeline, from deploying complex, multi-channel, synchronized audiovisual presentations to making visitor experiences accessible to all. Save time and increase production agility while reaching a wider audience.
               </p>
               <div className="block pb-6">
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-700 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Audio Description
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-700 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Multilingual Audio and Captions
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-700 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Web CMS
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-700 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Multichannel Syncrhonization
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-700 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Custom Scripting
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-700 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Embeddable Player
                 </span>
               </div>
               {/* <a */}
               {/*   href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index" */}
               {/*   target="_blank" */}
-              {/*   className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150" */}
+              {/*   className="font-bold text-blueGray-700 hover:text-blueGray-700 ease-linear transition-all duration-150" */}
               {/* > */}
               {/*   View All{" "} */}
               {/*   <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i> */}
@@ -205,22 +200,22 @@ export default function Index() {
                 <img
                   alt="..."
                   src="/img/admin_home.png"
-                  className="w-full align-middle rounded absolute shadow-lg max-w-340-px left-45-px -top-100-px z-0"
+                  className="w-full align-middle rounded-sm absolute shadow-lg max-w-340-px left-45-px -top-100-px z-0"
                 />
                 <img
                   alt="..."
                   src="/img/admin_exhibition.png"
-                  className="w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-160-px"
+                  className="w-full align-middle rounded-sm absolute shadow-lg max-w-210-px left-260-px -top-160-px"
                 />
                 <img
                   alt="..."
                   src="/img/admin_work.png"
-                  className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-10-px -top-225-px z-2"
+                  className="w-full align-middle rounded-sm absolute shadow-lg max-w-180-px left-10-px -top-225-px z-2"
                 />
                 <img
                   alt="..."
                   src="/img/exhibition_nav.jpg"
-                  className="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
+                  className="w-full align-middle rounded-sm absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
                 />
                 <img
                   alt="..."
@@ -241,7 +236,7 @@ export default function Index() {
             <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
               <img
                 alt="..."
-                className="max-w-full rounded-lg shadow-xl"
+                className="max-w-full rounded-sm shadow-xl"
                 style={{
                   transform:
                     "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
@@ -251,14 +246,14 @@ export default function Index() {
             </div>
             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
               <div className="md:pr-12">
-                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                <div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                   <i className="fas fa-palette text-xl"></i>
                 </div>
-                <h3 className="text-3xl font-semibold">
+                <h3 className="text-3xl font-bold font-lede">
                   Theming, Branding and Beyond
                 </h3>
-                <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  accesskit custom themes make it easy to match the display of captions and work metadata
+                <p className="mt-4 text-lg leading-relaxed text-blueGray-700">
+                  AccessKit custom themes make it easy to match the display of captions and work metadata
                   to your organization's style guide with just a few clicks. You can upload custom fonts and icons,
                   and if required, re-style the whole portal with an external stylesheet for seamless brand intergration.
                 </p>
@@ -266,12 +261,12 @@ export default function Index() {
                   <li className="py-2">
                     <div className="flex items-center">
                       <div className="w-12">
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-700 bg-blueGray-50 mr-3">
                           <i className="fas fa-chart-line"></i>
                         </span>
                       </div>
                       <div>
-                        <h4 className="text-blueGray-500">
+                        <h4 className="text-blueGray-700">
                           Google Analytics
                         </h4>
                       </div>
@@ -280,12 +275,12 @@ export default function Index() {
                   <li className="py-2">
                     <div className="flex items-center">
                       <div className="w-12">
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-700 bg-blueGray-50 mr-3">
                           <i className="fas fa-images"></i>
                         </span>
                       </div>
                       <div>
-                        <h4 className="text-blueGray-500">
+                        <h4 className="text-blueGray-700">
                           Dynamic SVGs
                         </h4>
                       </div>
@@ -294,12 +289,12 @@ export default function Index() {
                   <li className="py-2">
                     <div className="flex items-center">
                       <div className="w-12">
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-700 bg-blueGray-50 mr-3">
                           <i className="fas fa-font"></i>
                         </span>
                       </div>
                       <div>
-                        <h4 className="text-blueGray-500">
+                        <h4 className="text-blueGray-700">
                           Rich Text Editing
                         </h4>
                       </div>
@@ -321,10 +316,10 @@ export default function Index() {
                     Cross-platform synchronization
                   </h5>
                   <Link href="/community">
-                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <div className="hover:-mt-4 relative flex items-center flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-sm ease-linear transition-all duration-150">
                       <img
                         alt="..."
-                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        className="align-middle border-none max-w-full h-auto rounded-sm"
                         src="/img/brightsign-logo.png"
                       />
                     </div>
@@ -336,10 +331,10 @@ export default function Index() {
                     Easy integration
                   </h5>
                   <Link href="/community">
-                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-sm ease-linear transition-all duration-150">
                       <img
                         alt="..."
-                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        className="align-middle border-none max-w-full h-auto rounded-sm"
                         src="/img/rpi-logo.png"
                       />
                     </div>
@@ -351,10 +346,10 @@ export default function Index() {
                     Use your existing hardware
                   </h5>
                   <Link href="/community">
-                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-sm ease-linear transition-all duration-150">
                       <img
                         alt="..."
-                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        className="align-middle border-none max-w-full h-auto rounded-sm"
                         src="/img/mac-mini-logo.png"
                       />
                     </div>
