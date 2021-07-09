@@ -85,12 +85,11 @@ export default function Index() {
                     AccessKit at the Shed
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Learn how AccessKit was used to add mobile captioning to a 16 millimeter film at the Shed in June 2021.
+                    AccessKit was used to add mobile captioning to a 16 millimeter film at the Shed in June 2021.
                   </p>
                 </blockquote>
               </div>
             </div>
-
             <div className="w-full md:w-6/12 px-4">
               <div className="flex flex-wrap">
                 <div className="w-full md:w-6/12 px-4">
@@ -138,12 +137,20 @@ export default function Index() {
                       <div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-file-alt"></i>
                       </div>
+<<<<<<< HEAD
                       <h6 className="text-xl mb-1 font-bold font-lede">
                         Proven Case Studies
                       </h6>
                       <p className="mb-4 text-blueGray-700">
                         See AccessKit in action at some of New York's premiere cultural institutions, like <a href="https://captioner.theshed.org/"><strong>the Shed</strong></a> and <a href="https://captioner.whitney.org"><strong>the Whitney Museum of American Art</strong></a>.
 
+=======
+                      <h6 className="text-xl mb-1 font-semibold">
+                        Trusted
+                      </h6>
+                      <p className="mb-4 text-blueGray-500">
+                        See accesskit in action at some of New York's premiere cultural institutions, like <a href="https://captioner.theshed.org/"><strong>the Shed</strong></a> and <a href="https://captioner.whitney.org"><strong>the Whitney Museum of American Art</strong></a>.
+>>>>>>> 5634edd41d472e9f10866c127e4309ca30ce0cdf
                       </p>
                     </div>
                   </div>
