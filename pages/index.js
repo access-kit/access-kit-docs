@@ -140,7 +140,7 @@ export default function Index() {
                       <h6 className="text-xl mb-1 font-bold font-lede">
                         Trusted
                       </h6>
-                      <p className="mb-4 text-blueGray-500">
+                      <p className="mb-4 text-blueGray-700">
                         See AccessKit in action at some of New York's premiere cultural institutions, like <a href="https://captioner.theshed.org/"><strong>the Shed</strong></a> and <a href="https://captioner.whitney.org"><strong>the Whitney Museum of American Art</strong></a>.
                       </p>
                     </div>
