@@ -21,7 +21,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: theme => ({
-        'hero-pattern': "url('/img/whitney-2.png')",
+        'hero-pattern': "url('/img/whitney-sm.png')",
       }),
       backgroundPosition: {
         bottom: 'bottom',

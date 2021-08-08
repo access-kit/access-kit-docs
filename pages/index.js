@@ -14,7 +14,7 @@ export default function Index() {
         <div className="container mx-auto py-32 md:pt-60 md:pb-64 xl:py-72 items-end flex flex-wrap">
           <div className="w-full lg:w-6/12 px-6 py-6 bg-white bg-opacity-95 rounded-sm backdrop-filter backdrop-grayscale">
             <div className="">
-              <div className="lg:hidden mb-4 -mt-8 bg-hero-pattern bg-center bg-100% w-full h-64" src="/img/whitney-2.png" alt="Mobile captioning for Madeline Hollander video show." />
+              <div className="lg:hidden mb-4 -mt-8 bg-hero-pattern bg-center bg-100% w-full h-64" alt="Mobile captioning for Madeline Hollander video show." />
               <h2 className="font-bold text-3xl xl:text-4xl text-blueGray-700">
                 Easy-to-integrate solutions for accessible media experiences.
               </h2>
