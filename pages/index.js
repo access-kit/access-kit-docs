@@ -66,7 +66,7 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-sm bg-blueGray-700">
                 <img
                   alt="..."
-                  src="/img/shed.jpg"
+                  src="/img/shed-projector-md.png"
                   className="w-full align-middle rounded-sm"
                 />
                 <blockquote className="relative p-8 mb-4">
