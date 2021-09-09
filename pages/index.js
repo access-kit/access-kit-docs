@@ -23,7 +23,7 @@ export default function Index() {
               </p>
               <div className="mt-12">
                 <a
-                  href="mailto:info@AccessKit.media"
+                  href="mailto:info@accesskit.media"
                   target="_blank"
                   className="get-started text-white font-lede font-bold px-6 py-4 rounded-sm outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
@@ -65,7 +65,7 @@ export default function Index() {
             <div className="w-12/12 md:w-6/12 lg:w-6/12 px-6 md:px-4 mr-auto ml-auto mt-20">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-sm bg-blueGray-700">
                 <img
-                  alt="..."
+                  alt="Phone being used for mobile captioning at the Shed with a 16mm projector."
                   src="/img/shed-projector-md.png"
                   className="w-full align-middle rounded-sm"
                 />
@@ -177,6 +177,9 @@ export default function Index() {
                   Multichannel Syncrhonization
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-700 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Toggle for On-Screen Captions
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-700 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Custom Scripting
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-700 bg-white uppercase last:mr-0 mr-2 mt-2">
@@ -196,32 +199,32 @@ export default function Index() {
             <div className="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
                 <img
-                  alt="..."
+                  alt="Screenshot of the home screen of the AccesKit admin interface."
                   src="/img/admin_home.png"
                   className="w-full align-middle rounded-sm absolute shadow-lg max-w-340-px left-45-px -top-100-px z-0"
                 />
                 <img
-                  alt="..."
+                  alt="Screenshot of an exhibition overview in the AccessKit guest view."
                   src="/img/admin_exhibition.png"
                   className="w-full align-middle rounded-sm absolute shadow-lg max-w-210-px left-260-px -top-160-px"
                 />
                 <img
-                  alt="..."
+                  alt="Screenshot of captions for a work in the AccessKit guest view."
                   src="/img/admin_work.png"
                   className="w-full align-middle rounded-sm absolute shadow-lg max-w-180-px left-10-px -top-225-px z-2"
                 />
                 <img
-                  alt="..."
+                  alt="Screenshot of the guest view being used to navigate multiple works."
                   src="/img/exhibition_nav.jpg"
                   className="w-full align-middle rounded-sm absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
                 />
                 <img
-                  alt="..."
+                  alt="Screenshot of the homescreen of the AccessKit guest view."
                   src="/img/home_nav.jpg"
                   className="w-full align-middle rounded absolute shadow-lg max-w-200-px -left-20-px top-210-px"
                 />
                 <img
-                  alt="..."
+                  alt="Screenshot of captions for a work in landscape orientation."
                   src="/img/landscape_caption.png"
                   className="w-full align-middle rounded absolute shadow-xl max-w-320-px left-95-px top-5-px"
                 />
@@ -316,7 +319,7 @@ export default function Index() {
                   <Link href="/community">
                     <div className="hover:-mt-4 relative flex items-center flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-sm ease-linear transition-all duration-150">
                       <img
-                        alt="..."
+                        alt="BrightSign logo."
                         className="align-middle border-none max-w-full h-auto rounded-sm"
                         src="/img/brightsign-logo.png"
                       />
@@ -331,7 +334,7 @@ export default function Index() {
                   <Link href="/community">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-sm ease-linear transition-all duration-150">
                       <img
-                        alt="..."
+                        alt="Raspberry Pi logo."
                         className="align-middle border-none max-w-full h-auto rounded-sm"
                         src="/img/rpi-logo.png"
                       />
@@ -346,7 +349,7 @@ export default function Index() {
                   <Link href="/community">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-sm ease-linear transition-all duration-150">
                       <img
-                        alt="..."
+                        alt="Mac Mini logo."
                         className="align-middle border-none max-w-full h-auto rounded-sm"
                         src="/img/mac-mini-logo.png"
                       />

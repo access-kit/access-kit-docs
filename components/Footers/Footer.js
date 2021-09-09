@@ -26,10 +26,7 @@ export default function Footer() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-2xl font-semibold">Feel free to reach out!</h4>
-              <h5 className="text-lg mt-0 mb-4 text-blueGray-600">
-                We'd love to learn about your accessibility and AV projects.
-              </h5>
+              <h4 className="mb-4 font-captions bg-blueGray-900 text-white inline-block px-4">Made with love in NEW YORK CITY and BOSTON...</h4>
               <div className="font-semibold text-sm mb-4">
                 <p>260 West Broadway</p>
                 <p>Suite 2</p>

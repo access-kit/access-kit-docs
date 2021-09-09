@@ -12,7 +12,7 @@ export default function Navbar(props) {
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex flex-grow justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
-              <img className="h-5 cursor-pointer mt-1 md:mt-0" src="/img/access-kit.svg" alt="Access Kit" />
+              <img className="h-5 cursor-pointer mt-1 md:mt-0" src="/img/access-kit.svg" alt="AccessKit logo." />
             </Link>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border-transparent rounded-sm bg-transparent block lg:hidden outline-none focus:outline-none"

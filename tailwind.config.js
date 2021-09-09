@@ -10,6 +10,7 @@ module.exports = {
     fontFamily: {
       sans: [ 'D-DIN Regular', 'sans-serif'],
       lede: [ 'D-DIN Exp', 'sans-serif'],
+      captions: [ 'VCR_OSD_MONO', 'sans-serif'],
     },
     backgroundSize: {
       'auto': 'auto',
