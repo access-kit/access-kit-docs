@@ -186,14 +186,6 @@ export default function Index() {
                   Embeddable Player
                 </span>
               </div>
-              {/* <a */}
-              {/*   href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index" */}
-              {/*   target="_blank" */}
-              {/*   className="font-bold text-blueGray-700 hover:text-blueGray-700 ease-linear transition-all duration-150" */}
-              {/* > */}
-              {/*   View All{" "} */}
-              {/*   <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i> */}
-              {/* </a> */}
             </div>
 
             <div className="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
@@ -236,7 +228,7 @@ export default function Index() {
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
               <img
-                alt="..."
+                alt="Screenshot of AccessKit theme customization."
                 className="max-w-full rounded-sm shadow-xl"
                 style={{
                   transform:
