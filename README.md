@@ -4,7 +4,7 @@
 
 From complete visitor guides to mobile captioning for complex, multi-channel audio visual installations, accesskit provides the tools to create a frictionless and immersive synchronized experience for a full spectrum of accessibility, captioning and language needs.
 
-Please [sign up for the waiting list or contact us](mailto:info@accesskit.media) if you'd like to be a part of our beta.
+Please [sign up for the waiting list or contact us](mailto:info@accesskit.cc) if you'd like to be a part of our beta.
 
 ## Best-in-Class Tools
 

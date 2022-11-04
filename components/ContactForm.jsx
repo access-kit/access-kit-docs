@@ -11,7 +11,7 @@ export const ContactForm = () => (
               We're excited to hear about your accessibility and AV projects!
             </p>
             <p className="leading-relaxed mt-1 mb-4 text-blueGray-600 text-lg">
-              Please email us at <a href="mailto:info@accesskit.media" target="_blank" rel="noreferrer" className="font-bold">info@accesskit.media</a>,
+              Please email us at <a href="mailto:info@accesskit.cc" target="_blank" rel="noreferrer" className="font-bold">info@accesskit.cc</a>,
               and we'll be happy to provide you with a demo, price sheet, and a free consultantion.
             </p>
           </div>

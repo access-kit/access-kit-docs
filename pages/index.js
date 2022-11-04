@@ -23,7 +23,7 @@ export default function Index() {
               </p>
               <div className="mt-12">
                 <a
-                  href="mailto:info@accesskit.media"
+                  href="mailto:info@accesskit.cc"
                   target="_blank"
                   className="get-started text-white font-lede font-bold px-6 py-4 rounded-sm outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
@@ -115,7 +115,20 @@ export default function Index() {
                         Multilingual Captions and Audio
                       </h6>
                       <p className="mb-4 text-blueGray-700">
-                        An easily manageable CMS for multiple caption and audio tracks.
+                        An easily manageable CMS for multiple caption and audio tracks, with an AI-assist feature for translating captions to multiple languages.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="relative flex flex-col min-w-0">
+                    <div className="px-4 py-5 flex-auto">
+                      <div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fas fa-volume-down"></i>
+                      </div>
+                      <h6 className="text-xl mb-1 font-bold font-lede">
+                        Museum-wide Sensory Sensitivity Mode
+                      </h6>
+                      <p className="mb-4 text-blueGray-700">
+                        Easy adjust the volume of all media players in your institution or an exhibition for group tours or events.
                       </p>
                     </div>
                   </div>
@@ -128,7 +141,20 @@ export default function Index() {
                       </div>
                       <h6 className="text-xl mb-1 font-bold font-lede">No-Hassle Connection</h6>
                       <p className="mb-4 text-blueGray-700">
-                        Works entirely in the browser, so visitors need only a mobile phone to connect to your custom guide.
+                        AccessKit works entirely in a web browser, so visitors need only a mobile phone to connect to your custom guide.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="relative flex flex-col min-w-0">
+                    <div className="px-4 py-5 flex-auto">
+                      <div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fas fa-file-alt"></i>
+                      </div>
+                      <h6 className="text-xl mb-1 font-bold font-lede">
+                        Audio Description and Transcripts
+                      </h6>
+                      <p className="mb-4 text-blueGray-700">
+                        Visually impaired guests can experience installations in real time with synchronized audio descriptions, and transcripts allow curators and guests to investigate the texts of works.
                       </p>
                     </div>
                   </div>
@@ -141,7 +167,7 @@ export default function Index() {
                         Trusted
                       </h6>
                       <p className="mb-4 text-blueGray-700">
-                        See AccessKit in action at some of New York's premiere cultural institutions, like <a href="https://captioner.theshed.org/"><strong>the Shed</strong></a> and <a href="https://captioner.whitney.org"><strong>the Whitney Museum of American Art</strong></a>.
+                        See AccessKit in action at premiere cultural institutions, like  and <a href="https://captioner.whitney.org"><strong>the Whitney Museum of American Art</strong></a>, the <a href="https://hammer.accesskit.cc/">Hammer Museum</a> and <a href="https://theshed.org/"><strong>the Shed</strong></a>.
                       </p>
                     </div>
                   </div>
