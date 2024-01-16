@@ -85,7 +85,7 @@ export default function Index() {
                     AccessKit at the Shed
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    AccessKit was used to add mobile captioning to a 16 millimeter film at the Shed in June 2021.
+                    Using AccessKit to provide mobile captioning for a 16 millimeter film.
                   </p>
                 </blockquote>
               </div>
@@ -167,7 +167,7 @@ export default function Index() {
                         Trusted
                       </h6>
                       <p className="mb-4 text-blueGray-700">
-                        See AccessKit in action at premiere cultural institutions, like  and <a href="https://captioner.whitney.org"><strong>the Whitney Museum of American Art</strong></a>, the <a href="https://hammer.accesskit.cc/">Hammer Museum</a> and <a href="https://theshed.org/"><strong>the Shed</strong></a>.
+                        See AccessKit in action at premiere cultural institutions, like <a href="https://captioner.whitney.org"><strong>the Whitney Museum of American Art</strong></a>, the <a href="https://met.accesskit.cc"><strong>Metropolitan Museum of Art</strong></a>, the <a href="https://hmsg.accesskit.cc/"><strong>Hirschorn Museum</strong></a>, the <a href="https://hammer.accesskit.cc/"><strong>Hammer Museum</strong></a>, <a href="https://theshed.org/"><strong>the Shed</strong></a> and many others.
                       </p>
                     </div>
                   </div>
