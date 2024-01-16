@@ -167,7 +167,7 @@ export default function Index() {
                         Trusted
                       </h6>
                       <p className="mb-4 text-blueGray-700">
-                        See AccessKit in action at premiere cultural institutions, like <a href="https://captioner.whitney.org"><strong>the Whitney Museum of American Art</strong></a>, the <a href="https://met.accesskit.cc"><strong>Metropolitan Museum of Art</strong></a>, the <a href="https://hmsg.accesskit.cc/"><strong>Hirschorn Museum</strong></a>, the <a href="https://hammer.accesskit.cc/"><strong>Hammer Museum</strong></a>, <a href="https://theshed.org/"><strong>the Shed</strong></a> and many others.
+                        See AccessKit in action at institutions like the <a href="https://captioner.whitney.org"><strong>Whitney</strong></a>, the <a href="https://met.accesskit.cc"><strong>Metropolitan Museum of Art</strong></a>, the <a href="https://hmsg.accesskit.cc/"><strong>Hirschorn Museum</strong></a>, the <a href="https://hammer.accesskit.cc/"><strong>Hammer Museum</strong></a>, the <a href="https://theshed.org/"><strong>Shed</strong></a> and many others.
                       </p>
                     </div>
                   </div>
